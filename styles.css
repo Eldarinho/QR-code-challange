@@ -1,0 +1,107 @@
+.div {
+    background-color: hsl(219, 71%, 89%);
+    height: 600px;
+    width: 1250px;
+    position: relative;
+    left: 90px;
+    top: 120px;  
+    box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image-qr-code {
+    height: 250px;
+    width: 250px;
+    border-radius: 8%;
+    padding-top: 10px;
+    
+}
+
+body {
+    width:1440px;
+    position: relative;
+    background-color: hsl(187, 47%, 96%);
+    overflow: hidden;
+}
+
+.div-white {
+    height: 450px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    display: flex;
+    justify-content:center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+
+h4 {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+
+figcaption {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color: grey;
+    font-weight: 400;
+}
+
+.dotted-lines {
+    border-style: none;
+    border-style: dotted;
+    border-color: rgb(119, 195, 243);
+    margin-bottom:0;
+    border-width: 15px;
+    width: 5px;
+    height:100px
+}
+
+.dotted-lines {
+    position: absolute;
+    left: -1;
+    top: 300px;
+}
+
+.drag {
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    left: 300px;
+    bottom: -320px;
+    transform: rotate(-60deg);
+    
+}
+
+.L {
+    height: 190px;
+    width: 90px;
+    position: absolute;
+    right: 800px;
+    top: -100px;
+    transform: rotate(30deg);
+}
+
+.circle {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    right: -120px;
+    bottom: -300px}
+
+.zig-zag {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    right: -200px;
+    top: 200px
+}
+.zig-zag {
+    transform: rotate(-20deg);
+}
